@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  clj-datasci:
+    build: .
+    volumes:
+      - .:/home/jovyan/notebooks
